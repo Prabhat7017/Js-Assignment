@@ -1,0 +1,67 @@
+<!-- Qus. What are data types in Javascript? Explain the different types of data types with examples. -->
+
+1. Primitive Data Types
+
+Primitive data types are simple, immutable values stored directly in memory.
+a) Number
+
+The Number data type is used to represent both integers and floating-point values. JavaScript also supports special numerical values like Infinity and NaN (Not a Number).
+
+    Example: 25, 3.14, Infinity, NaN
+
+b) String
+
+The String data type is used to store textual data. It can be enclosed in single quotes ('), double quotes ("), or backticks (`) for template literals.
+
+    Example: "Hello, World!", 'JavaScript', `Hello, ${name}`
+
+c) Boolean
+
+A Boolean represents a logical value and can either be true or false.
+
+    Example: true, false
+
+d) Undefined
+
+A variable that has been declared but has not been assigned any value is considered undefined.
+
+    Example: let x; // x is undefined
+
+e) Null
+
+Null represents an intentional absence of value. It is explicitly assigned to a variable when we want to indicate that it has no value.
+
+    Example: let data = null;
+
+f) BigInt
+
+BigInt is used to store large integers beyond the safe limit of the Number data type. It is represented by adding n at the end of an integer.
+
+    Example: let bigNumber = 12345678901234567890n;
+
+2. Non-Primitive (Reference) Data Types
+
+Non-primitive data types store references to memory locations instead of actual values.
+a) Object
+
+An Object is a collection of key-value pairs where values can be of any type. Objects are used to store structured data.
+
+    Example: { name: "Alice", age: 30 }
+
+b) Array
+
+An Array is a special type of object that stores ordered lists of values. Each value can be accessed using an index.
+
+    Example: [1, 2, 3, 4], ["Red", "Green", "Blue"]
+
+c) Function
+
+A Function is a block of reusable code that performs a specific task. In JavaScript, functions are treated as objects.
+
+    Example: function greet() { return "Hello!"; }
+
+d) Date
+
+The Date object is used to handle dates and time-related operations in JavaScript.
+
+    Example: new Date()
